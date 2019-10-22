@@ -89,7 +89,7 @@ class GameScene: SKScene {
     
     func createEnemy() {
         numRounds += 1
-        if numRounds >= 30 {
+        if numRounds >= 15 {
             for slot in slots {
                 slot.hide()
             }
@@ -98,6 +98,16 @@ class GameScene: SKScene {
             gameOver.position = CGPoint(x: 512, y: 384)
             gameOver.zPosition = 1
             addChild(gameOver)
+            run(SKAction.playSoundFileNamed("gameOver.m4a", waitForCompletion: false))
+            
+            let finalScore = SKLabelNode(fontNamed: "Chalkduster")
+            finalScore.text = "Final Score: \(score)"
+            finalScore.position = CGPoint(x: 512, y: 280)
+            finalScore.horizontalAlignmentMode = .center
+            finalScore.zPosition = 1
+            addChild(finalScore)
+            
+            gameScore.isHidden = true
             return
         }
         
