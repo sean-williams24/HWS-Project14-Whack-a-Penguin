@@ -18,6 +18,7 @@
 		CE397AB6235EF0040001A6E2 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE397AB4235EF0040001A6E2 /* whackBad.caf */; };
 		CE397AB8235EF2AC0001A6E2 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE397AB7235EF2AC0001A6E2 /* WhackSlot.swift */; };
 		CE397ABA235F19410001A6E2 /* gameOver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE397AB9235F19410001A6E2 /* gameOver.m4a */; };
+		CE397ABC235F1C5D0001A6E2 /* penguinSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE397ABB235F1C5D0001A6E2 /* penguinSmoke.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CE397AB4235EF0040001A6E2 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		CE397AB7235EF2AC0001A6E2 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		CE397AB9235F19410001A6E2 /* gameOver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameOver.m4a; sourceTree = "<group>"; };
+		CE397ABB235F1C5D0001A6E2 /* penguinSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = penguinSmoke.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				CE397AA3235EEF460001A6E2 /* GameViewController.swift */,
 				CE397AA5235EEF460001A6E2 /* Main.storyboard */,
 				CE397AA8235EEF470001A6E2 /* Assets.xcassets */,
+				CE397ABB235F1C5D0001A6E2 /* penguinSmoke.sks */,
 				CE397AAA235EEF470001A6E2 /* LaunchScreen.storyboard */,
 				CE397AAD235EEF470001A6E2 /* Info.plist */,
 				CE397AB3235EF0040001A6E2 /* whack.caf */,
@@ -144,6 +147,7 @@
 				CE397AB5235EF0040001A6E2 /* whack.caf in Resources */,
 				CE397A9E235EEF460001A6E2 /* GameScene.sks in Resources */,
 				CE397AA9235EEF470001A6E2 /* Assets.xcassets in Resources */,
+				CE397ABC235F1C5D0001A6E2 /* penguinSmoke.sks in Resources */,
 				CE397AAC235EEF470001A6E2 /* LaunchScreen.storyboard in Resources */,
 				CE397ABA235F19410001A6E2 /* gameOver.m4a in Resources */,
 				CE397AB6235EF0040001A6E2 /* whackBad.caf in Resources */,

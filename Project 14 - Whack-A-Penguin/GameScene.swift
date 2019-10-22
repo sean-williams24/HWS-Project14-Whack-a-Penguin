@@ -59,7 +59,7 @@ class GameScene: SKScene {
             
             if !whackSlot.isVisible { continue }
             if whackSlot.isHit { continue }
-            whackSlot.hit()
+            whackSlot.hit(node)
 
             if node.name == "charFriend" {
                 // Shouldnt have whacked penguin
